@@ -1,0 +1,39 @@
+	@font-face {
+	    font-family: 'OpenSans';
+	    src: url('../fonts/OpenSansRegular/OpenSansRegular.woff2') format('woff2'),
+	         url('../fonts/OpenSansRegular/OpenSansRegular.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'OpenSans';
+	    src: url('../fonts/OpenSansBold/OpenSansBold.woff2') format('woff2'),
+	         url('../fonts/OpenSansBold/OpenSansBold.woff') format('woff');
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	@font-face {
+	    font-family: 'OpenSans';
+	    src: url('../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff2') format('woff2'),
+	         url('../fonts/OpenSansBoldItalic/OpenSansBoldItalic.woff') format('woff');
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	@font-face {
+	    font-family: 'OpenSans';
+	    src: url('../fonts/OpenSansItalic/OpenSansItalic.woff2') format('woff2'),
+	         url('../fonts/OpenSansItalic/OpenSansItalic.woff') format('woff');
+		font-weight: normal;
+		font-style: italic;
+	}
+
+
+
+
+
+
+
+

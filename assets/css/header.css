@@ -1,0 +1,88 @@
+/* Color style*/
+.yellow {
+  background-color: #ffeb3b;
+  color: #333333; }
+
+.btn.yellow:active, .btn.yellow:focus {
+  background-color: #fbc02d; }
+
+.btn.yellow:hover {
+  background-color: #fbb814;
+  color: #333; }
+
+/* end color style*/
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  padding: 0 5px;
+  min-width: 250px;
+  border: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s; }
+
+.header-block__result {
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1); }
+
+.header-block__result:hover {
+  cursor: pointer; }
+
+/* start block HEADER */
+.header-block {
+  background-image: url(../img/se_a.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  border-bottom: 10px solid #fbb814; }
+
+.header-block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.header-block__logo {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.header-block__logo-img {
+  -webkit-filter: drop-shadow(0 3px 2px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0 3px 2px rgba(0, 0, 0, 0.9)); }
+
+.header-block__form {
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
+
+/* end block HEADER */
+@media (max-width: 767px) {
+  .header-block__form {
+    -ms-flex-item-align: center;
+        align-self: center; } }

@@ -105,7 +105,7 @@
   border-bottom: 10px solid #fbb814; }
 
 .header-block._8 {
-  background-image: url(../img/8.jpeg);
+  background-image: url(../img/8.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -130,6 +130,22 @@
 
 .header-block._11 {
   background-image: url(../img/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 15px;
+  border-bottom: 10px solid #fbb814; }
+
+.header-block._12 {
+  background-image: url(../img/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 15px;
+  border-bottom: 10px solid #fbb814; }
+
+.header-block._13 {
+  background-image: url(../img/13.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
